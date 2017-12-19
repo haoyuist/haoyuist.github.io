@@ -331,7 +331,7 @@
         
           
             <hr>
-<h1 id="初次使用Hexo"><a href="#初次使用Hexo" class="headerlink" title="初次使用Hexo"></a>初次使用Hexo</h1><p>在这里分享一下hexo搭建过程中遇到的一些问题。首先搭建教程我这里就不写了，百度上面有很多。主要说一些在安装git插件时候遇到的问题，在执行npm install hexo-deployer-git –save命令的时候报：<br>npm ERR! Please try running this command again as root/Administrator 这个错误，很多人说是没有root权限，问题是我在windows上面操作，当前用户就是最高权限。<br><br><br>其实这里可能是npm国外的源不稳定造成的，所以在这里更换淘宝的源：<br><br>npm config set registry <a href="https://registry.npm.taobao.org" target="_blank" rel="noopener">https://registry.npm.taobao.org</a> <br><br>npm config get registry<br><br>npm cache clean<br><br>npm install hexo-deployer-git –save<br><br>hexo g<br><br>hexo s</p>
+<h1 id="初次使用Hexo"><a href="#初次使用Hexo" class="headerlink" title="初次使用Hexo"></a>初次使用Hexo</h1><p>在这里分享一下hexo搭建过程中遇到的一些问题。搭建教程我这里就不写了，百度上面有很多。主要说一下在安装git插件时候遇到的问题，在执行npm install hexo-deployer-git –save命令的时候报：<br>npm ERR! Please try running this command again as root/Administrator 这个错误，很多人说是没有root权限，问题是我在windows上面操作，当前用户就是最高权限。<br><br><br>其实这里可能是npm国外的源不稳定造成的，所以在这里更换淘宝的源：<br><br>npm config set registry <a href="https://registry.npm.taobao.org" target="_blank" rel="noopener">https://registry.npm.taobao.org</a> <br><br>npm config get registry<br><br>或者参考 <a href="https://npm.taobao.org/" target="_blank" rel="noopener">https://npm.taobao.org/</a></p>
 <hr>
 
           
